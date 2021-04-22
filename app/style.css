@@ -30,6 +30,15 @@ a {
   background: white;
   padding: 1rem 2rem;
   border-radius: 30px;
+  border: 2px solid white;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-1 a:hover,
+.card-2 a:hover,
+.card-3 a:hover {
+  background: none;
+  color: white;
 }
 
 p {
